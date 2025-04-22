@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Inclui padding e border no cálculo do tamanho */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
+    padding: 0 10%; /* Reduz o padding lateral */
+    background-color: #f0f8ff;
+    color: black;
+}
+
+.cabecalho {
+    margin: 20px 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #CED5DB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center; /* Centraliza o texto */
+    border-radius: 8px;
+}
+
+.curriculo-duas-colunas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaçamento entre as colunas */
+    justify-content: space-between; /* Espaça as colunas uniformemente */
+    width: 100%;
+}
+
+.curriculo-duas-colunas > section {
+    flex: 1 1 calc(50% - 20px); /* Cada seção ocupa 50% da largura menos o gap */
+    margin: 10px 0; /* Espaçamento vertical entre as seções */
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: left; /* Alinha o texto à esquerda */
+}
+
+.informacoes-pessoais,
+.objetivo-profissional,
+.experiencia-profissional,
+.formacao-academica,
+.habilidades,
+.idiomas {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Alinha os itens à esquerda */
+    justify-content: flex-start; /* Alinha os itens ao topo */
+}
+
+.habilidades ul{
+    padding-left: 20px;
+    margin-left: 10px;
+}
+
+.rodape{
+    display: flex;
+    background-color: #5B5E61; /* Nova cor de fundo */
+    color: #ffffff; /* Cor do texto para contraste */
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+}
