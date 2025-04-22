@@ -5,3 +5,5 @@ Nesse projeto em específico, foi dado um desafio em criar um currículo utiliza
 Há muito que tenho aprender, contanto, já gostaria contrubuir no trabalho e enfrentar desafios ao mesmo tempo.
 
 Espero que tenha gostado =) .
+
+https://curriculo-pi-ten.vercel.app/
